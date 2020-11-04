@@ -16,10 +16,11 @@ function getItemValue(itemName) {
 
 $(document).ready(function() {
   $("#groceries").submit(function(event) {
-
+  event.preventDefault();
+  $("#show-list").show();
+  $("#groceries").hide();
   $("#list").append(`<li>${makeList()}</li>`);
 
-  event.preventDefault();
 
   });
 });
