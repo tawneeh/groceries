@@ -13,7 +13,7 @@ This application will take user input from a form and display the listed items i
 
 ## Known Bugs
 
-There are no known bugs.
+This application does not display the user input in a list as intended. 
 
 ## Support and contact details
 
